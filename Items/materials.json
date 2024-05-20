@@ -1,0 +1,26 @@
+[
+  {
+    "type": "material",
+    "id": "wf_foodpaste",
+    "name": "Generic food... stuff",
+    "density": 2.5,
+    "specific_heat_liquid": 2,
+    "specific_heat_solid": 2,
+    "latent_heat": 150,
+    "edible": true,
+    "rotting": true,
+    "conductive": false,
+    "chip_resist": 1,
+    "dmg_adj": [ "lightly damaged", "damaged", "very damaged", "thoroughly damaged" ],
+    "bash_dmg_verb": "squished",
+    "cut_dmg_verb": "cut",
+    "vitamins": [ [ "iron", 0.1 ], [ "calcium", 0.1], [ "vitC", 0.1] ],
+    "//": "This material is used primarily for foodstuffs, and should not provide any significant fuel value.",
+    "burn_data": [
+      { "fuel": 0, "smoke": 1, "burn": 0.002 },
+      { "fuel": 0, "smoke": 3, "burn": 0.002 },
+      { "fuel": 0, "smoke": 5, "burn": 0.005 }
+    ],
+    "resist": { "bash": 0, "cut": 0, "acid": 0, "heat": 0, "bullet": 0 }
+  }
+]

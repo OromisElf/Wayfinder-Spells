@@ -1,0 +1,9 @@
+[
+  {
+    "id": "wf_druid_water",
+    "type": "SPELL",
+    "spell_class": "WF_DRUID",
+    "name": "Create Water",
+    "copy-from": "wf_cleric_water"
+  }
+]

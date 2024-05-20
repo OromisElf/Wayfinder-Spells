@@ -1,0 +1,31 @@
+[
+  {
+    "id": "wf_water_summoned",
+    "name": "clean water",
+    "copy-from": "water_clean",
+    "type": "COMESTIBLE",
+    "container": "null"
+  },
+  {
+    "id": "wf_meal_summoned",
+    "name": "Summoned Nourishment",
+    "type": "COMESTIBLE",
+    "description": "A dense block of food. Looks a bit like clay and smells like nothing. Should be better than starving, though.",
+    "spoils_in": "1 day",
+    "comestible_type": "FOOD",
+    "weight": "1 kg",
+    "volume": "400 ml",
+    "quench": 50,
+    "healthy": 0,
+    "calories": 3500,
+    "fun": -3,
+    "looks_like": "clay_lump",
+    "vitamins": [["calcium", 96], ["iron", 96], ["vitC", 96]],
+    "material": [
+    {"type": "wf_foodpaste", "portion": 10}
+    ],
+    "use_action": [ "PETFOOD" ],
+    "petfood": [ "CATFOOD", "BIRDFOOD", "DOGFOOD", "CATTLEFOOD" ],
+    "flags": [ "TRADER_AVOID" ]
+  }
+]

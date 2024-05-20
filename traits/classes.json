@@ -1,0 +1,26 @@
+[
+  {
+    "type": "mutation",
+    "id": "WF_CLERIC",
+    "name": "Wayfinder Cleric",
+    "points": 0,
+    "description": "The ways of the cleric are varied, yet all who tread these paths walk with the mightiest of allies and bear the arms of the gods themselves.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [  ],
+    "spells_learned": [ [ "wf_cleric_water", 0 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "WF_DRUID",
+    "name": "Wayfinder Druid",
+    "points": 0,
+    "description": "Within the purity of the elements and the order of the wilds lingers a power beyond the marvels of civilization. Furtive yet undeniable, these primal magics are guarded over by servants of philosophical balance known as druids.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [  ],
+    "spells_learned": [ [ "wf_druid_water", 0 ] ]
+  }
+]

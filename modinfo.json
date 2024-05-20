@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "wayfinder_spells",
+    "name": "Wayfinder Spells",
+    "authors": [ "OromisElf" ],
+    "description": "Adds some spells from Wayfinder to the game. Will, in some cases (probably most tbh), be unbalanced.",
+    "category": "magical",
+    "dependencies": [ "dda", "magiclysm" ]
+  }
+]
