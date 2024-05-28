@@ -20,7 +20,7 @@
     "calories": 3500,
     "fun": -3,
     "looks_like": "clay_lump",
-    "vitamins": [["calcium", 96], ["iron", 96], ["vitC", 96]],
+    "vitamins": [["calcium", 32], ["iron", 32], ["vitC", 32]],
     "material": [
     {"type": "wf_foodpaste", "portion": 10}
     ],
