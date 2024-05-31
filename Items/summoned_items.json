@@ -11,6 +11,7 @@
     "name": "Summoned Nourishment",
     "type": "COMESTIBLE",
     "description": "A dense block of food. Looks a bit like clay and smells like nothing. Should be better than starving, though.",
+    "symbol": "o",
     "spoils_in": "1 day",
     "comestible_type": "FOOD",
     "weight": "1 kg",
@@ -18,7 +19,7 @@
     "quench": 50,
     "healthy": 0,
     "calories": 3500,
-    "fun": -3,
+    "fun": 0,
     "looks_like": "clay_lump",
     "vitamins": [["calcium", 32], ["iron", 32], ["vitC", 32]],
     "material": [
