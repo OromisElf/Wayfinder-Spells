@@ -1,0 +1,57 @@
+[
+  {
+    "abstract": "wf_character_sheet",
+    "type": "GENERIC",
+    "category": "artifacts",
+    "symbol": "/",
+    "name": { "str": "character sheet", "str_pl": "character sheets" },
+    "description": "An abstract Wayfinder character sheet.",
+    "looks_like": "survnote",
+    "price": "0 cent",
+    "price_postapoc": "0 cent",
+    "material": [ "paper" ],
+    "flags": [ "TRADER_AVOID", "PAPER_SHAPED" ],
+    "weight": "3 g",
+    "volume": "5 ml"
+  },
+  {
+    "id": "wf_cleric_clw",
+    "type": "GENERIC",
+    "name": { "str": "character sheet", "str_pl": "character sheets" },
+    "copy-from": "wf_character_sheet",
+    "description": "A Wayfinder character sheet. This is from a level 1 cleric that wanted to heal people.",
+    "use_action": { "type": "learn_spell", "spells": [ "wf_cleric_clw" ] }
+  },
+  {
+    "id": "wf_cleric_cmw",
+    "type": "GENERIC",
+    "name": { "str": "character sheet", "str_pl": "character sheets" },
+    "copy-from": "wf_character_sheet",
+    "description": "A Wayfinder character sheet. This is from a level 3 cleric that wanted to heal people going from town to town to help the militia against the dangers of the forest.",
+    "use_action": { "type": "learn_spell", "spells": [ "wf_cleric_cmlw" ] }
+  },
+  {
+    "id": "wf_cleric_csw",
+    "type": "GENERIC",
+    "name": { "str": "character sheet", "str_pl": "character sheets" },
+    "copy-from": "wf_character_sheet",
+    "description": "A Wayfinder character sheet. This is from a level 6 cleric who fought desperately against hordes of demons and trying their best to keep their allies in one piece.  According to the notes nobody should have to face the same fate as their brother.",
+    "use_action": { "type": "learn_spell", "spells": [ "wf_cleric_csw" ] }
+  },
+  {
+    "id": "wf_cleric_ccw",
+    "type": "GENERIC",
+    "name": { "str": "character sheet", "str_pl": "character sheets" },
+    "copy-from": "wf_character_sheet",
+    "description": "A Wayfinder character sheet. This is from a level 7 cleric who valiantly helped fend off a dragon from its hometown.  Heavily injured they decided to retire and open a tavern where they heal adventurer amateurs.",
+    "use_action": { "type": "learn_spell", "spells": [ "wf_cleric_ccw" ] }
+  },
+  {
+    "id": "wf_cleric_food",
+    "type": "GENERIC",
+    "name": { "str": "character sheet", "str_pl": "character sheets" },
+    "copy-from": "wf_character_sheet",
+    "description": "A Wayfinder character sheet. This is from a level 5 cleric in a survival campaign.  They sacrificed a lot of their combat prowess to keep their allies fed.",
+    "use_action": { "type": "learn_spell", "spells": [ "wf_cleric_food" ] }
+  }
+]

@@ -43,5 +43,121 @@
     "max_duraiton": 8640000,
     "damage_increment": 3,
     "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+  },
+  {
+    "id": "wf_cleric_clw",
+    "type": "SPELL",
+    "spell_class": "WF_CLERIC",
+    "name": "Cure Light Wounds",
+    "description": "Channels positive energy through a living target to heal them.",
+    "valid_targets": [ "self", "ally" ],
+    "min_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 1)"
+      ]
+    },
+    "max_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 8)"
+      ]
+    },
+    "max_level": 5,
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "attack",
+    "shape": "blast",
+    "base_casting_time": 300,
+    "base_energy_cost": 100,
+    "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
+    "difficulty": 1,
+    "energy_source": "MANA",
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+  },
+  {
+    "id": "wf_cleric_cmw",
+    "type": "SPELL",
+    "spell_class": "WF_CLERIC",
+    "name": "Cure Moderate Wounds",
+    "description": "Channels positive energy through a living target to heal them.",
+    "valid_targets": [ "self", "ally" ],
+    "min_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 2)"
+      ]
+    },
+    "max_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 16)"
+      ]
+    },
+    "max_level": 10,
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "attack",
+    "shape": "blast",
+    "base_casting_time": 300,
+    "base_energy_cost": 200,
+    "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
+    "difficulty": 2,
+    "energy_source": "MANA",
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+  },
+  {
+    "id": "wf_cleric_csw",
+    "type": "SPELL",
+    "spell_class": "WF_CLERIC",
+    "name": "Cure Serious Wounds",
+    "description": "Channels positive energy through a living target to heal them.",
+    "valid_targets": [ "self", "ally" ],
+    "min_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 3)"
+      ]
+    },
+    "max_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 24)"
+      ]
+    },
+    "max_level": 15,
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "attack",
+    "shape": "blast",
+    "base_casting_time": 300,
+    "base_energy_cost": 300,
+    "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
+    "difficulty": 3,
+    "energy_source": "MANA",
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+  },
+  {
+    "id": "wf_cleric_ccw",
+    "type": "SPELL",
+    "spell_class": "WF_CLERIC",
+    "name": "Cure Critical Wounds",
+    "description": "Channels positive energy through a living target to heal them.",
+    "valid_targets": [ "self", "ally" ],
+    "min_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 4)"
+      ]
+    },
+    "max_damage": {
+      "math": [
+        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 32)"
+      ]
+    },
+    "max_level": 20,
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "attack",
+    "shape": "blast",
+    "base_casting_time": 300,
+    "base_energy_cost": 400,
+    "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
+    "difficulty": 4,
+    "energy_source": "MANA",
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
   }
 ]
