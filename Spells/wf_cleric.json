@@ -53,12 +53,12 @@
     "valid_targets": [ "self", "ally" ],
     "min_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 1)"
+        "-1 * ( (u_spell_level('wf_cleric_clw') * 1) + 1)"
       ]
     },
     "max_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 8)"
+        "-1 *  -1 * ( (u_spell_level('wf_cleric_clw') * 1) + 8)"
       ]
     },
     "max_level": 5,
@@ -71,7 +71,7 @@
     "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
     "difficulty": 1,
     "energy_source": "MANA",
-    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS", "RANDOM_DAMAGE" ]
   },
   {
     "id": "wf_cleric_cmw",
@@ -82,12 +82,12 @@
     "valid_targets": [ "self", "ally" ],
     "min_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 2)"
+        "-1 * ( (u_spell_level('wf_cleric_cmw') * 1) + 2)"
       ]
     },
     "max_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 16)"
+        "-1 * ( (u_spell_level('wf_cleric_cmw') * 1) + 16)"
       ]
     },
     "max_level": 10,
@@ -100,7 +100,7 @@
     "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
     "difficulty": 2,
     "energy_source": "MANA",
-    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS", "RANDOM_DAMAGE" ]
   },
   {
     "id": "wf_cleric_csw",
@@ -111,12 +111,12 @@
     "valid_targets": [ "self", "ally" ],
     "min_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 3)"
+        "-1 * ( (u_spell_level('wf_cleric_csw') * 1) + 3)"
       ]
     },
     "max_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 24)"
+        "-1 * ( (u_spell_level('wf_cleric_csw') * 1) + 24)"
       ]
     },
     "max_level": 15,
@@ -129,7 +129,7 @@
     "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
     "difficulty": 3,
     "energy_source": "MANA",
-    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS", "RANDOM_DAMAGE" ]
   },
   {
     "id": "wf_cleric_ccw",
@@ -140,12 +140,12 @@
     "valid_targets": [ "self", "ally" ],
     "min_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 4)"
+        "-1 * ( (u_spell_level('wf_cleric_ccw') * 1) + 4)"
       ]
     },
     "max_damage": {
       "math": [
-        "( (u_spell_level('electrokinetic_shock_touch') * 1) + 32)"
+        "-1 * ( (u_spell_level('wf_cleric_ccw') * 1) + 32)"
       ]
     },
     "max_level": 20,
@@ -158,6 +158,6 @@
     "extra_effects": [ { "id": "eoc_channeling_setup", "hit_self": true } ],
     "difficulty": 4,
     "energy_source": "MANA",
-    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
+    "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS", "RANDOM_DAMAGE" ]
   }
 ]
