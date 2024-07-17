@@ -7,7 +7,7 @@
     "description": "This spell generates wholesome, drinkable water. If you can't fit the water anywhere it will spill on the ground. This water disappears after 1 day if not consumed.",
     "valid_targets": [ "self" ],
     "effect": "spawn_item",
-    "effect_str": "wf_water_summoned",
+    "effect_str": "water_clean",
     "shape": "blast",
     "base_casting_time": 300,
     "base_energy_cost": 0,

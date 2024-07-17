@@ -1,6 +1,11 @@
 [
   {
-    "id": "wf_water_summoned",
+    "id": "wf_summoned_water",
+    "type": "MIGRATION",
+    "replace": "water_clean"
+  },
+  {
+    "id": "water_clean",
     "name": "clean water",
     "copy-from": "water_clean",
     "type": "COMESTIBLE",
