@@ -28,7 +28,7 @@
     "name": { "str": "character sheet", "str_pl": "character sheets" },
     "copy-from": "wf_character_sheet",
     "description": "A Wayfinder character sheet. This is from a level 3 cleric that wanted to heal people going from town to town to help the militia against the dangers of the forest.",
-    "use_action": { "type": "learn_spell", "spells": [ "wf_cleric_cmlw" ] }
+    "use_action": { "type": "learn_spell", "spells": [ "wf_cleric_cmw" ] }
   },
   {
     "id": "wf_cleric_csw",
