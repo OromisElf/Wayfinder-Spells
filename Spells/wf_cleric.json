@@ -58,7 +58,7 @@
     },
     "max_damage": {
       "math": [
-        "-1 *  -1 * ( (u_spell_level('wf_cleric_clw') * 1) + 8)"
+        "-1 * ( (u_spell_level('wf_cleric_clw') * 1) + 8)"
       ]
     },
     "max_level": 5,
