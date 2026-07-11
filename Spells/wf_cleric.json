@@ -17,7 +17,7 @@
     "min_damage": 0,
     "max_damage": 600,
     "min_duration": 8640000,
-    "max_duraiton": 8640000,
+    "max_duration": 8640000,
     "//": "doesn't actually run out :shrug:",
     "damage_increment": 30,
     "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
@@ -40,7 +40,7 @@
     "min_damage": 0,
     "max_damage": 600,
     "min_duration": 8640000,
-    "max_duraiton": 8640000,
+    "max_duration": 8640000,
     "damage_increment": 3,
     "flags": [ "CONCENTRATE", "SOMATIC", "VERBAL", "NO_LEGS", "NO_HANDS" ]
   },

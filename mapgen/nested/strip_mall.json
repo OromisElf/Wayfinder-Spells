@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "//": "Gaming Store",
     "nested_mapgen_id": "strip_mall_shop_a",
     "weight": 100,

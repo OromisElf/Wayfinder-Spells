@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "11x11_recroom_open",
     "object": {
       "mapgensize": [ 11, 11 ],

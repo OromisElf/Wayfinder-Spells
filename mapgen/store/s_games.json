@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "s_games" ],
     "object": {
       "fill_ter": "t_carpet_purple",

@@ -8,13 +8,15 @@
     "id": "water_clean",
     "name": "clean water",
     "copy-from": "water_clean",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+	"subtypes": [ "COMESTIBLE" ],
     "container": "null"
   },
   {
     "id": "wf_meal_summoned",
     "name": "Summoned Nourishment",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+	"subtypes": [ "COMESTIBLE" ],
     "description": "A dense block of food. Looks a bit like clay and smells like nothing. Should be better than starving, though.",
     "symbol": "o",
     "spoils_in": "1 day",

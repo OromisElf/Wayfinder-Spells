@@ -1,7 +1,6 @@
 [  
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ [ "LIXA_workfloor_1a", "LIXA_workfloor_1b" ], [ "LIXA_workfloor_2a", "LIXA_workfloor_2b" ] ],
     "object": {
       "fill_ter": "t_thconc_floor",

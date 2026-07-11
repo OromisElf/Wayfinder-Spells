@@ -7,7 +7,6 @@
     "specific_heat_liquid": 2,
     "specific_heat_solid": 2,
     "latent_heat": 150,
-    "edible": true,
     "rotting": true,
     "conductive": false,
     "chip_resist": 1,
