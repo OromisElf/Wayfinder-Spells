@@ -2,7 +2,6 @@
   {
     "type": "mapgen",
     "om_terrain": [ "mansion_t7" ],
-    "weight": 1000,
     "object": {
       "fill_ter": "t_floor",
       "rows": [
@@ -31,8 +30,18 @@
         "........[...........[...",
         "........................"
       ],
-      "palettes": [ "standard_domestic_palette", "standard_domestic_lino_bathroom", "standard_domestic_landscaping_palette" ],
-      "terrain": { "-": "t_carpet_green", "l": "t_carpet_green", "≠": "t_carpet_green", "‡": "t_carpet_green" },
+      "palettes": [
+        "parametrized_carpets_palette",
+        "standard_domestic_palette",
+        "standard_domestic_lino_bathroom",
+        "standard_domestic_landscaping_palette"
+      ],
+      "terrain": {
+        "-": { "param": "carpet_color_type", "fallback": "t_carpet_green" },
+        "l": { "param": "carpet_color_type", "fallback": "t_carpet_green" },
+        "≠": { "param": "carpet_color_type", "fallback": "t_carpet_green" },
+        "‡": { "param": "carpet_color_type", "fallback": "t_carpet_green" }
+      },
       "furniture": { "‡": "f_sofa", "&": "f_table", ")": "f_speaker_cabinet" },
       "items": {
         ".": { "item": "clutter_yard", "chance": 1 },
